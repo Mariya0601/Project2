@@ -5,6 +5,7 @@
 }
 body {
     background-color: #020a18;
+    font-family: sans-serif;
 }
 .menu__link {
     color: #FFF;
@@ -97,4 +98,44 @@ body {
     display: flex;
     justify-content: end;
 }
+.item {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+.heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; 
+}
+.item__text{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    opacity: 0.7;
+}
+.content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+    padding-top: 264px;
+    padding-bottom: 243px;
+}
+.item__big{
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+
 
